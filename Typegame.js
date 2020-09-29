@@ -1,6 +1,6 @@
 //manage Database
 var database = firebase.database();
-var messageRef = database.ref("Game/TypeGame").orderByChild('Correct'); //อ้างชื่อ key
+var messageRef = database.ref("Game/TypeGame").orderByChild('score'); //อ้างชื่อ key
 
 
 new Vue({
